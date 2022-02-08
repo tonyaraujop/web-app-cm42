@@ -1,0 +1,39 @@
+/* colors */
+
+:root{
+  --light-yellow: #ffe21d;
+  --dark-yellow: #ffd21d;
+  --light-blue: #24afff;
+  --dark-blue: #248bff;
+  --salmon: #f26c6c;
+  --green: #27b667;
+}
+
+/* Fonts */
+
+body {
+  font-family: "Montserrat", serif;
+  background-image: url(https://images.pexels.com/photos/99551/hot-air-balloon-valley-sky-99551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+p {
+  font-size: 14px;
+  text-indent: 50px;
+  line-height: 1.8;
+}
+
+/* Grid */
+.container__header{
+  display: flex;
+  justify-content: space-between;
+}

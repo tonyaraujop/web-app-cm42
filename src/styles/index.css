@@ -4,3 +4,6 @@
 @import 'elements/_elements.css';
 @import 'components/_buttons.css';
 @import 'components/_inputs.css';
+@import 'components/_navigation.css';
+@import 'components/_img.css';
+@import 'components/_box.css'

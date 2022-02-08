@@ -1,0 +1,22 @@
+.container__navigation {
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  width: 33.33%;
+}
+
+.container__item {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container__item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

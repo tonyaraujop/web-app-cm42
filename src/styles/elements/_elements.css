@@ -1,4 +1,4 @@
 body {
-  font-family: "Montserrat", serif;
+  font-family: var(--standard-font);
   height: 100%;
 }

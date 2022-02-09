@@ -1,32 +1,19 @@
 /* colors */
 
-:root{
+:root {
   --light-yellow: #ffe21d;
   --dark-yellow: #ffd21d;
   --light-blue: #24afff;
   --dark-blue: #248bff;
   --salmon: #f26c6c;
   --green: #27b667;
-}
-
-/* Fonts */
-
-body {
-  font-family: "Montserrat", serif;
-}
-
-h1 {
-  font-size: 40px;
-  letter-spacing: 5px;
-}
-
-h2 {
-  font-size: 30px;
-  letter-spacing: -2px;
-}
-
-p {
-  font-size: 14px;
-  text-indent: 50px;
-  line-height: 1.8;
+  --ligth-gray: rgb(182, 179, 179);
+  --standard-font: "Montserrat", serif;
+  --title-size: 40px;
+  --paragraph-size: 16px;
+  --text-color: black;
+  --text-weigth: bold;
+  --small-padding: 28px;
+  --medium-paddin: 50px;
+  --large-paddin: 100px;
 }

@@ -47,7 +47,7 @@ body {
   font-weight: bold;
 }
 
-.text__para--color--size {
+.text__parag--color--size {
   font-size: 16px;
   color: black;
 }
@@ -60,12 +60,29 @@ body {
   gap: 20px;
 }
 
-#section1 {
+.container__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 28px;
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+  gap: 526.1755px;
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section__top {
   background-image: url(https://images.pexels.com/photos/99551/hot-air-balloon-valley-sky-99551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   height: 100vh;
 }
 
-#section2 {
+#section__bot{
   background-color: rgb(182, 179, 179);
 }
 

@@ -1,0 +1,17 @@
+.container__navigation {
+  display: flex;
+  gap: 150px;
+}
+
+.container__item {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container__item:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--light-yellow);
+  cursor: pointer;
+}

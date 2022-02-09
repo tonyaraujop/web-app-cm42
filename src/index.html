@@ -4,10 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="styles/index.css" />
     <title>Web App</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+      <section id="section__top">
+        <div class="container__header">
+          <img class="container__img"src="https://d2arqaup0tn1pp.cloudfront.net/assets/logo_codeminer42-dbb1f25e4ec14c50e7a253c107339d692ee9adce3ac6137706bc166295bc59e3.svg" alt="Codeminer42 Logo">
+          <div class="container__navigation">
+            <div class="container__item">HOME</div>
+            <div class="container__item">ABOUT</div>
+            <div class="container__item">BENEFITS</div>
+          </div>
+          <div><a href="#section__bot" class="button button--yellow">APPLY NOW</a></div>
+        </div>
+      </section>
+      <section id="section__bot">
+        <div class="container__content">
+          <div class="container__text">
+            <h1 class="text__title">CONTACT US</h1>
+            <p class="text__parag--color--size">WE ARE OPEN FOR A CONVERSATION. IF YOU HAVE ANY QUESTIONS WE WILL BE PLEASED TO ANSWER ALL OF THEM</p>
+          </div> 
+          <div class="container__form">
+            <input type="text" placeholder="How should we call you?">
+            <input type="text" placeholder="Where should we write our answer to?">
+            <textarea placeholder="What would you like to ask us?""></textarea>
+            <button class="button button--blue">Send</button>
+          </div>         
+        </div>
+      </section>
+      <div class="container__footer">
+        <img class="footer__img"src="https://d2arqaup0tn1pp.cloudfront.net/assets/logo_codeminer42-dbb1f25e4ec14c50e7a253c107339d692ee9adce3ac6137706bc166295bc59e3.svg" alt="Codeminer42 Logo">
+        <div class="footer_box">
+          <a href="#section__top" class="footer__button"></a>
+          <p>TOP</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

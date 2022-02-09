@@ -1,0 +1,49 @@
+/* Lists */
+ul {
+  list-style: square outside;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+/* Links */
+a {
+  color: black;
+}
+
+ /* unvisited link */
+a:link {
+  color: none;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: none;
+  text-decoration: none;
+} 

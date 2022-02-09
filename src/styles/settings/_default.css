@@ -1,0 +1,74 @@
+/* colors */
+
+:root {
+  --light-yellow: #ffe21d;
+  --dark-yellow: #ffd21d;
+  --light-blue: #24afff;
+  --dark-blue: #248bff;
+  --salmon: #f26c6c;
+  --green: #27b667;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  height: 100%;
+}
+
+.container {
+  background: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 28px;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.container__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.text__title {
+  font-size: 40px;
+  color: var(--light-blue);
+  font-weight: bold;
+}
+
+.text__para--color--size {
+  font-size: 16px;
+  color: black;
+}
+
+.container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+#section1 {
+  background-image: url(https://images.pexels.com/photos/99551/hot-air-balloon-valley-sky-99551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100vh;
+}
+
+#section2 {
+  background-color: rgb(182, 179, 179);
+}
+
+html {
+  scroll-behavior: smooth
+}

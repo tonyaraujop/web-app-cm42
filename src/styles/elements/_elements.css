@@ -21,25 +21,29 @@ ol.d {
 
 /* Links */
 a {
-  color: darkblue;
+  color: black;
 }
 
- a:link {
-  color: red;
+ /* unvisited link */
+a:link {
+  color: none;
   text-decoration: none;
 }
 
+/* visited link */
 a:visited {
-  color: green;
+  color: none;
   text-decoration: none;
 }
 
+/* mouse over link */
 a:hover {
-  color: salmon;
-  text-decoration: underline;
+  color: none;
+  text-decoration: none;
 }
 
+/* selected link */
 a:active {
-  color: blue;
-  text-decoration: underline;
+  color: none;
+  text-decoration: none;
 } 

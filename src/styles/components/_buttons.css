@@ -1,60 +1,55 @@
 .button {
   background-color: transparent;
   border: none;
-  color: black;
-  padding: 15px 32px;
+  border-radius: var(--input-border-r);
+  color: var(--input-text-active);
+  padding: var(--button-heigth) var(--button-width);
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: var(--button-text-size);
   cursor: pointer;
 }
 
-.button1{
-  border: 2px solid var(--light-yellow);
-  border-radius: 28px;
-  transition-duration: 0.4s;
+.button__yellow{
+  border: var(--button-border-t) solid var(--light-yellow);
+  transition-duration: var(--button-transition);
 }
 
-.button1:hover{
+.button__yellow:hover{
   background-color: var(--light-yellow);
-  border-radius: 28px;
 }
 
-.button1:active{
+.button__yellow:active{
   background-color: var(--dark-yellow);
-  border: 2px solid var(--dark-yellow);
+  border: var(--button-border-t) solid var(--light-yellow);
 }
 
-.disabled1{
-  border-radius: 28px;
+.button__yellow--disabled{
   background-color: var(--dark-yellow);
-  border: 2px solid var(--dark-yellow);
-  opacity: 0.5;
+  border: var(--button-border-t) solid var(--dark-yellow);
+  opacity: var(--button-opacity);
   cursor: not-allowed;
 }
 
-.button2{
-  border: 2px solid var(--light-blue);
-  border-radius: 28px;
-  transition-duration: 0.4s;
+.button__blue{
+  border: var(--button-border-t) solid var(--light-blue);
+  transition-duration: var(--button-transition);
 }
 
-.button2:hover{
+.button__blue:hover{
   background-color: var(--light-blue);
-  color: white;
-  border-radius: 28px;
+  color: var(--input-backg-color);
 }
 
-.button2:active{
+.button__blue:active{
   background-color: var(--dark-blue);
-  border: 2px solid var(--dark-blue);
+  border: var(--button-border-t) solid var(--dark-blue);
 }
 
-.disabled2{
-  border-radius: 28px;
+.button__blue--disabled{
   background-color: var(--dark-blue);
-  border: 2px solid var(--dark-blue);
-  opacity: 0.5;
+  border: var(--button-border-t) var(--dark-blue);
+  opacity: var(--button-opacity);
   cursor: not-allowed;
 }

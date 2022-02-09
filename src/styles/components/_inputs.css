@@ -1,34 +1,58 @@
-input[type=text] {
-  width: 250px;
-  padding: 12px 20px 12px 40px;
-  margin: 8px 8px;
+input {
+  width: var(--width-input);
+  padding: var(--input-height) var(--input-width);
   box-sizing: border-box;
   border: none;
   outline: none;
-  background-color: white;
+  background-color: var(--input-backg-color);
   background-repeat: no-repeat;
-  color: gray;
+  color: var(--input-text-color);
   text-align: left;
-  font-size: 14px;
-  border-radius: 28px;
+  font-size: var(--comp-font-size);
+  border-radius: var(--input-border-r);
 }
 
-input[type=text]:focus{
-  border: 3px solid var(--dark-blue);
-  color: black
+input:focus {
+  border: var(--input-border-t) solid var(--dark-blue);
+  color: var(--input-text-active)
 }
 
-input[name=disabled]{
-  width: 250px;
-  padding: 12px 20px 12px 40px;
-  margin: 8px 8px;
+input[name=disabled] {
+  opacity: var(--input-opacity);
+  pointer-events: none;
+}
+
+input:required:invalid{
+  background-color: var(--salmon);
+}
+
+input:required:valid{
+  background-color: var(--green);
+}
+
+input:disabled{
+  background-color: var(--dark-yellow);
+}
+
+textarea {
+  width: var(--width-input);
+  height: var(--height-input);
+  padding: var(--input-height) var(--input-width);
   box-sizing: border-box;
   border: none;
-  background-color: white;
-  color: gray;
+  outline: none;
+  background-color: var(--input-backg-color);
+  background-repeat: no-repeat;
+  color: var(--input-text-color);
   text-align: left;
-  font-size: 14px;
-  border-radius: 28px;
-  opacity: 0.6;
-  pointer-events: none;
+  font-size: var(--comp-font-size);
+  border-radius: var(--input-border-r);
+  resize: none;
+  font-family: var(--standard-font);
+  font-weight: bold;
+}
+
+textarea:focus {
+  border: var(--input-border-t) solid var(--dark-blue);
+  color: var(--input-text-active);
 }

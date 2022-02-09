@@ -9,16 +9,24 @@
     <title>Design System</title>
   </head>
   <body>
-    <h1>Design System</h1>
-    <button class="button button1">Button</button>
-    <button class="button disabled1">Button</button>
-    <button class="button button2">Button</button>
-    <button class="button disabled2">Button</button>
-
-    <h2>Input fields</h2>
-    <form>
-      <input type="text" placeholder="Static input place holder">
-      <input name="disabled" placeholder="Static input place holder">
-    </form>
+    <div class="container">
+      <div class="header"></div>
+        <h1>BUTTONS</h1>
+      <div class="content"></div>
+        <button class="button button__yellow">Button</button>
+        <button class="button button__yellow--disabled">Button</button>
+        <button class="button button__blue">Button</button>
+        <button class="button button__blue--disabled">Button</button>
+        <h2>Input fields</h2>
+          <form action="#">
+            <input type="text" placeholder="Static input place holder" valid>
+            <input name="disabled" placeholder="Static input place holder">
+            <input type="email"placeholder="Needs attention" disabled>
+            <input type="email"value="exemple@exemple.com" required>
+            <input type="email"placeholder="Email required" required>
+          </form>
+          <textarea placeholder="What would you like to ask us?"></textarea>
+      <div class="footer"></div>
+    </div>
   </body>
 </html>

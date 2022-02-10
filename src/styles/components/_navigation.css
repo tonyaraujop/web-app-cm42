@@ -1,12 +1,12 @@
 .container__navigation {
   display: flex;
-  gap: 150px;
+  gap: var(--header-gap);
 }
 
 .container__item {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
+  color: var(--input-backg-color);
+  font-weight: var(--text-weight);
+  font-size: var(--paragraph-size);
 }
 
 .container__item:hover {

@@ -1,4 +1,5 @@
 :root {
+/* Colors */
   --light-yellow: #ffe21d;
   --dark-yellow: #ffd21d;
   --light-blue: #24afff;
@@ -6,11 +7,42 @@
   --salmon: #f26c6c;
   --green: #27b667;
   --ligth-gray: rgb(182, 179, 179);
+
+  /* Fonts */
   --standard-font: "Montserrat", serif;
   --title-size: 40px;
   --paragraph-size: 16px;
   --text-color: black;
   --text-weigth: bold;
+
+  /* Paddings blocks */
+  --small-padding: 28px;
+  --medium-paddin: 50px;
+  --large-paddin: 100px;
+
+  /* Input */
+  --width-input: 600px;
+  --heigth-input: 400px;
+  --input-width: 20px;
+  --input-height: 12px;
+  --input-border-r: 28px;
+  --input-border-t: 3px;
+  --input-backg-color: white;
+  --input-text-color: gray;
+  --input-text-active: black;
+  --input-text-size: 20px;
+  --input-opacity: 0.6;
+
+  /* Buttons */
+  --button-width: 32px;
+  --button-heigth: 15px;
+  --button-text-size: 14px;
+  --button-border-t: 2px;
+  --button-transition: 0.4s;
+  --button-opacity: 0.5;
+
+  /*Standard Measures*/
+  --heigth-std: 100%;
   --small-padding: 28px;
   --medium-paddin: 50px;
   --large-paddin: 100px;

@@ -1,0 +1,12 @@
+.container__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: var(--small-padding);
+}
+
+#section__top {
+  background-image: url(https://images.pexels.com/photos/99551/hot-air-balloon-valley-sky-99551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: var(--full-screen);
+}

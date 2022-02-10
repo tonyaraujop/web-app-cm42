@@ -22,11 +22,11 @@ input[name=disabled] {
   pointer-events: none;
 }
 
-input:required:invalid{
+input:invalid{
   background-color: var(--salmon);
 }
 
-input:required:valid{
+input:required:valid {
   background-color: var(--green);
 }
 

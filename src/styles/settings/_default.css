@@ -46,4 +46,10 @@
     --full-screen: 100vh;
     --header-gap: 150px;
     --content-gap: 20px;
+
+    /* Footer */
+    --footer-border-t: 4px;
+    --footer-button: 0 3px 3px 0;
+    --footer-padding: 16px;
+    --rotation-deg: -135deg;
   }

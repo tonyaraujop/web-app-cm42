@@ -1,0 +1,9 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  padding: var(--large-padding);
+}
+
+#section__bot {
+  background-color: var(--ligth-gray);
+}

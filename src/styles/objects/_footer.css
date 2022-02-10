@@ -1,0 +1,25 @@
+.container__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: var(--small-padding);
+  border-top: var(--footer-border-t) solid var(--input-text-color);
+  border-bottom: var(--footer-border-t) solid var(--input-text-color);
+  gap: calc(var(--content-gap)*28.865);
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__button {
+  border: solid var(--input-text-color);
+  border-width: var(--footer-button);
+  display: inline-block;
+  padding: var(--footer-padding);
+  transform: rotate(var(--rotation-deg));
+  -webkit-transform: rotate(var(--rotation-deg));
+}

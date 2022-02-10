@@ -1,91 +1,49 @@
-/* colors */
-
 :root {
-  --light-yellow: #ffe21d;
-  --dark-yellow: #ffd21d;
-  --light-blue: #24afff;
-  --dark-blue: #248bff;
-  --salmon: #f26c6c;
-  --green: #27b667;
-}
-
-body {
-  font-family: "Montserrat", serif;
-  height: 100%;
-}
-
-.container {
-  background: scroll;
-  display: flex;
-  flex-direction: column;
-}
-
-.container__header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 28px;
-}
-
-.container__content {
-  display: flex;
-  flex-direction: column;
-  padding: 100px;
-}
-
-.container__text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-}
-
-.text__title {
-  font-size: 40px;
-  color: var(--light-blue);
-  font-weight: bold;
-}
-
-.text__parag--color--size {
-  font-size: 16px;
-  color: black;
-}
-
-.container__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px;
-  gap: 20px;
-}
-
-.container__footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 28px;
-  border-top: 4px solid gray;
-  border-bottom: 4px solid gray;
-  gap: 526.1755px;
-}
-
-.footer_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#section__top {
-  background-image: url(https://images.pexels.com/photos/99551/hot-air-balloon-valley-sky-99551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  height: 100vh;
-}
-
-#section__bot{
-  background-color: rgb(182, 179, 179);
-}
-
-html {
-  scroll-behavior: smooth
-}
+  /* Colors */
+    --light-yellow: #ffe21d;
+    --dark-yellow: #ffd21d;
+    --light-blue: #24afff;
+    --dark-blue: #248bff;
+    --salmon: #f26c6c;
+    --green: #27b667;
+    --ligth-gray: rgb(182, 179, 179);
+  
+    /* Fonts */
+    --standard-font: "Montserrat", serif;
+    --title-size: 40px;
+    --paragraph-size: 20px;
+    --text-color: black;
+    --text-weigth: bold;
+  
+    /* Paddings blocks */
+    --small-padding: 28px;
+    --medium-padding: 50px;
+    --large-padding: 100px;
+  
+    /* Input */
+    --width-input: 600px;
+    --heigth-input: 400px;
+    --input-width: 20px;
+    --input-height: 12px;
+    --input-border-r: 28px;
+    --input-border-t: 3px;
+    --input-backg-color: white;
+    --input-text-color: gray;
+    --input-text-active: black;
+    --input-text-size: 20px;
+    --input-opacity: 0.6;
+  
+    /* Buttons */
+    --button-width: 32px;
+    --button-heigth: 15px;
+    --button-border-t: 2px;
+    --button-transition: 0.4s;
+    --button-opacity: 0.5;
+  
+    /*Standard Measures*/
+    --heigth-std: 100%;
+    --height-header: 50px;
+    --full-screen: 100vh;
+    --header-gap: 150px;
+    --content-gap: 20px;
+  }

@@ -43,4 +43,7 @@
 
   /*Standard Measures*/
   --heigth-std: 100%;
+  --small-padding: 28px;
+  --medium-paddin: 50px;
+  --large-paddin: 100px;
 }

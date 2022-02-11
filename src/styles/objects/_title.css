@@ -1,0 +1,5 @@
+.container__title {
+  padding: calc(var(--large-padding)*3);
+  font-size: calc(var(--title-size)*3);
+  color: var(--input-backg-color);
+}
